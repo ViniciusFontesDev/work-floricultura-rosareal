@@ -1,0 +1,29 @@
+body{
+    height: 2000px;
+}
+
+.flores img{
+    width: 210px;
+}
+
+.flores{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+/*
+@media(max-width: 800px){
+    .flores{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+e abaixo disso vai ser 3 rolagens laterais com tópicos em tamanho.
+*/
