@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    background-color: #FFE2E4;
+    background-color: var(--cor-04);
 }
 
 .condicoes-bg img{
@@ -39,11 +39,6 @@
 }
 
 .condicoes-contato a{
-    padding: 10px 20px;
-    background-image: linear-gradient(to bottom, #95AF92, #729B6D);
-    border-radius: 4px;
-    color: black;
-    font-weight: bold;
     margin-top: -20px;
     grid-column: 1/3;
 }

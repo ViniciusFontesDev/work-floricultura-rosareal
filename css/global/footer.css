@@ -1,11 +1,11 @@
 .footer-bg{
-    background-color: #95AF92;
+    background-color: var(--cor-05);
     margin-top: 60px;
     position: relative;
 }
 
 .footer-bg a:hover{
-    color: white;
+    color: var(--cor-01);
 }
 
 .footer h3{
@@ -16,13 +16,6 @@
     padding: 20px 80px 40px 80px;
 }
 
-.footer-links a{
-    color: black;
-}
-
-.footer-contatos p{
-    font-size: 18px;
-}
 
 .footer-links{
     padding-bottom: 30px;
@@ -32,9 +25,6 @@
     padding: 10px;
 }
 
-.footer-contatos>p>a{
-    color: black;
-}
 .footer-contatos>p{
     padding-top: 30px;
 }
@@ -47,8 +37,7 @@
 }
 
 .final-final{
-    background-color: black;
-    color: white;
+    background-color: var(--cor-02);
     padding: 20px;
     padding-left: 40px;
 }

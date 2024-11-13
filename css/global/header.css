@@ -1,5 +1,5 @@
 .header-bg{
-    background-color: white;
+    background-color: var(--cor-01);
 }
 
 .header img{
@@ -27,18 +27,16 @@
 }
 
 .header-menu a{
-    color: black;
     display: inline-block;
     padding: 10px 0px;
     position: relative;
-    font-size: 18px;
 }
 
 .header-menu a::after{
     content: "";
     display: block;
     width: 0%;
-    background-color: #F3C6C9;
+    background-color: var(--cor-03);
     height: 2px;
     position: absolute;
     bottom: 5px;
@@ -50,7 +48,7 @@
 }
 
 .header-menu li:last-child{
-    background-image: linear-gradient(to bottom, #FFE2E4, #F3C6C9);
+    background-image: linear-gradient(to bottom, var(--cor-04), var(--cor-03));
     padding: 0px 20px;
     border-radius: 4px;
 }
@@ -60,7 +58,7 @@
         justify-content: center;
     }
     .header-menu a{
-        font-size: 16px;
+        font-size: 1rem;
     }
     .header-menu{
         gap: 20px;

@@ -1,7 +1,29 @@
 .font-01{
-    font: 500 1.75rem/1.125 Arial, Helvetica, sans-serif;
+    font: 500 1.125rem/1.125 Arial, Helvetica, sans-serif;
+    /*menu && footer final-final*/
+}
+
+.font-02{
+    font: 500 1.125rem/1 Arial, Helvetica, sans-serif;
+    /*<p> dos produtos && texto condições && textos footer*/
+}
+
+.font-03{
+    font: 600 1.125rem/1 Arial, Helvetica, sans-serif;
+    /*span dos produtos*/
 }
 
 .font-titulo{
-    
+    font: 600 2rem/1.25 Arial, Helvetica, sans-serif;
+    /*h1 do site*/
+}
+
+.font-vermelha{
+    font: 600 1.75rem/1.25 Arial, Helvetica, sans-serif;
+    /*h2 do site*/
+}
+
+.font-cond{
+    font: 600 1.375/1 Arial, Helvetica, sans-serif;
+    /*titulo condições && título footer*/
 }

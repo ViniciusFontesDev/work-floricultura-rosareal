@@ -1,0 +1,52 @@
+hr{
+    background-color: black;
+    height: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.sobre-nos{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    gap: 0px;
+}
+
+.sobre-nos p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.sobre-nos a{
+    margin-bottom: 20px;
+}
+
+.sobre-nos span{
+    font-size: 1.25rem;
+    font-weight: 500;
+    position: relative;
+}
+
+.sobre-nos span::before{
+    content: "";
+    display: inline-block;
+    background-color: var(--cor-06);
+    width: 15px;
+    height: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: -20px;
+}
+.sobre-nos span::after{
+    content: "";
+    display: inline-block;
+    background-color: var(--cor-06);
+    width: 15px;
+    height: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: -20px;
+}

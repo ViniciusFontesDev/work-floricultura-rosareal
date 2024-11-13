@@ -1,6 +1,6 @@
 .introducao-bg{
     background-color: #95AF92;
-    box-shadow: inset 0 -100px white;
+    box-shadow: inset 0 -100px var(--cor-01);
 }
 
 .introducao{
@@ -19,7 +19,6 @@
 }
 
 .introducao h1{
-    color: #F3C6C9;
     padding: 15px 0px;
 }
 
@@ -30,6 +29,6 @@
     }
 
     .introducao h1{
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 }
