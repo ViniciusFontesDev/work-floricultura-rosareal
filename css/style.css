@@ -13,3 +13,7 @@
 /*Home*/
 @import url(home/introducao.css);
 @import url(home/produtos.css);
+@import url(home/condicoes.css);
+
+/*Contato*/
+@import url(contato/contato.css);

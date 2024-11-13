@@ -1,0 +1,54 @@
+.footer-bg{
+    background-color: #95AF92;
+    margin-top: 60px;
+    position: relative;
+}
+
+.footer-bg a:hover{
+    color: white;
+}
+
+.footer h3{
+    text-align: center;
+}
+
+.footer{
+    padding: 20px 80px 40px 80px;
+}
+
+.footer-links a{
+    color: black;
+}
+
+.footer-contatos p{
+    font-size: 18px;
+}
+
+.footer-links{
+    padding-bottom: 30px;
+}
+
+.footer-contatos li{
+    padding: 10px;
+}
+
+.footer-contatos>p>a{
+    color: black;
+}
+.footer-contatos>p{
+    padding-top: 30px;
+}
+
+.footer-bg img{
+    width: 100px;
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+}
+
+.final-final{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-left: 40px;
+}

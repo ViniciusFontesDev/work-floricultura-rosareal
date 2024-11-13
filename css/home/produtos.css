@@ -1,7 +1,3 @@
-body{
-    height: 2000px;
-}
-
 .flores-bg{
     display: flex;
     flex-flow: column nowrap;
@@ -9,7 +5,7 @@ body{
     margin-top: 20px;
 }
 
-.flores-bg h1{
+.flores-bg h2{
     color: #890210;
     font-size: 28px;
 }
