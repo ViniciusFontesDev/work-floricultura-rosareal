@@ -15,18 +15,11 @@ hr{
     gap: 0px;
 }
 
-.sobre-nos p{
-    font-size: 1.25rem;
-    line-height: 1.5;
-}
-
 .sobre-nos a{
     margin-bottom: 20px;
 }
 
 .sobre-nos span{
-    font-size: 1.25rem;
-    font-weight: 500;
     position: relative;
 }
 
@@ -37,7 +30,7 @@ hr{
     width: 15px;
     height: 5px;
     position: absolute;
-    bottom: 10px;
+    bottom: 13px;
     left: -20px;
 }
 .sobre-nos span::after{
@@ -47,6 +40,6 @@ hr{
     width: 15px;
     height: 5px;
     position: absolute;
-    bottom: 10px;
+    bottom: 13px;
     right: -20px;
 }

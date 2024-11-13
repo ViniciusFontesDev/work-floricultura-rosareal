@@ -1,0 +1,25 @@
+.contato{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.contato > a{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contato-conteudo li{
+    padding: 4px 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.contato-conteudo a{
+    color: var(--cor-02);
+}
+
+.contato-conteudo li:nth-child(1){
+    background-color: var(--cor-04);
+}
