@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.footer-bg a{
+    transition: color .3s;
+}
+
 .footer-bg a:hover{
     color: var(--cor-01);
 }

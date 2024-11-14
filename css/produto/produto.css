@@ -1,0 +1,50 @@
+.produto-bg{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+.produto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.produto-conteudo{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100%;
+    background-color: var(--cor-04);
+    padding: 0px 40px;
+    border-radius: 4px;
+}
+
+.produto-conteudo p{
+    margin: 40px 0px;
+}
+
+.produto-conteudo a{
+    max-width: 200px;
+}
+
+.botao-v.seta{
+    display: flex;
+    align-items: center;
+}
+
+.botao-v.seta::after{
+    content: "";
+    background: url(../../img/icones/seta.svg) no-repeat center center;
+    width: 28px;
+    height: 20px;
+    margin-left: 15px;
+    display: inline-block;
+    transition: transform .5s;
+}
+
+.botao-v.seta:hover::after{
+    transform: translateX(8px);
+}

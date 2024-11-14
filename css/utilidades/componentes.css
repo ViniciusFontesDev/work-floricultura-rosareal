@@ -1,8 +1,12 @@
 .botao-v{
         padding: 10px 20px;
-        background-image: linear-gradient(to bottom, var(--cor-05), var(--cor-06));
+        background: linear-gradient(to bottom, var(--cor-05), var(--cor-06));
         border-radius: 4px;
         color: var(--cor-02);
         font-weight: bold;
         text-transform: uppercase;
+}
+
+.botao-v:hover{
+        background: var(--cor-06);
 }
