@@ -38,6 +38,12 @@
     position: absolute;
     right: 40px;
     bottom: 80px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.footer-bg img:hover{
+        border: 1px solid var(--cor-07);
+        box-sizing: border-box;
 }
 
 .final-final{

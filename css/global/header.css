@@ -5,6 +5,12 @@
 .header img{
     width: 120px;
     height: auto;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.header img:hover{
+    border: 1px solid var(--cor-07);
+    box-sizing: border-box;
 }
 
 .header{
@@ -48,9 +54,14 @@
 }
 
 .header-menu li:last-child{
-    background-image: linear-gradient(to bottom, var(--cor-04), var(--cor-03));
+    background: linear-gradient(to bottom, var(--cor-04), var(--cor-03));
     padding: 0px 20px;
     border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.header-menu li:last-child:hover{
+    background: var(--cor-03);
 }
 
 @media(max-width: 600px){
