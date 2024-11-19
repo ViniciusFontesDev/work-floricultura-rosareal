@@ -49,3 +49,14 @@
     height: auto;
 }
 
+@media(max-width: 950px) {
+    .condicoes{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .condicoes img{
+        margin-top: 30px;
+    }
+}

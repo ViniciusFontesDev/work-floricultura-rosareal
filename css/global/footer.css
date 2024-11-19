@@ -29,7 +29,7 @@
     padding: 10px;
 }
 
-.footer-contatos>p{
+.footer-contatos p{
     padding-top: 30px;
 }
 
@@ -50,4 +50,20 @@
     background-color: var(--cor-02);
     padding: 20px;
     padding-left: 40px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+@media(max-width: 500px){
+    .footer-bg{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .footer-bg img{
+        display: none;
+    }
+    .footer-contatos{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
 }

@@ -68,11 +68,15 @@
     .header{
         justify-content: center;
     }
-    .header-menu a{
-        font-size: 1rem;
-    }
     .header-menu{
         gap: 20px;
     }
+    .header img{
+        width: 80px;
+    }
+    .header-menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
-

@@ -2,9 +2,46 @@
     max-width: 1000px;
     margin: auto;
     margin-bottom: 100px;
+    padding: 20px;
 }
 
 .opcoes-bg h2{
     font-weight: 500;
 }
 
+@media(max-width: 850px){
+    .opcoes-bg>.flores-bg .flores .flor{
+        min-width: 210px;
+    }
+    
+    .opcoes-bg .flores-bg .flores{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 0 20px;
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        overflow-x: scroll;
+    }    
+}
+
+
+/*
+@media(max-width: 850px){
+    .opcoes-bg>.flores-bg .flores .flor{
+        min-width: 210px;
+    }
+    
+    .opcoes-bg .flores-bg .flores{
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 40px;
+        padding: 0 20px;
+        max-width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+        overflow-x: scroll;
+    }
+}
+    */

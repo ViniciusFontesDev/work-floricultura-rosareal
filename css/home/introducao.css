@@ -32,3 +32,9 @@
         font-size: 1.5rem;
     }
 }
+
+@media(max-width: 550px){
+    .introducao img{
+        height: 200px;
+    }
+}
