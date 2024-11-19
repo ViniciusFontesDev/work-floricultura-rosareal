@@ -49,3 +49,9 @@
 .botao-v.seta:hover::after{
     transform: translateX(8px);
 }
+
+@media(max-width: 700px){
+    .produto{
+        grid-template-columns: 1fr;
+    }
+}

@@ -20,13 +20,12 @@
     padding: 20px 80px 40px 80px;
 }
 
-
 .footer-links{
     padding-bottom: 30px;
 }
 
 .footer-contatos li{
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .footer-contatos p{
@@ -42,8 +41,8 @@
 }
 
 .footer-bg img:hover{
-        border: 1px solid var(--cor-07);
-        box-sizing: border-box;
+    border: 1px solid var(--cor-07);
+    box-sizing: border-box;
 }
 
 .final-final{
@@ -54,7 +53,7 @@
     max-width: 100%;
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){
     .footer-bg{
         display: flex;
         flex-flow: column wrap;
@@ -64,6 +63,10 @@
     }
     .footer-contatos{
         max-width: 100%;
+        box-sizing: border-box;
+    }
+    .footer{
+        padding: 0px 20px;
         box-sizing: border-box;
     }
 }
