@@ -24,3 +24,6 @@
 /*Página de cada PRODUTO*/
 @import url(produto/produto.css);
 @import url(produto/opcoes.css);
+
+/*Fundos*/
+@import url(fundos/fundo.css);

@@ -1,0 +1,55 @@
+/*página todos os produtos*/
+.fundo-todos-01 {
+    z-index: -1;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    right: 0px;
+    top: 130px;
+}
+.fundo-todos-02 {
+    z-index: -1;
+    position: absolute;
+    width: 400px;
+    height: auto;
+  left: 0px;
+  top: 500px;
+}
+.fundo-todos-03 {
+    z-index: -1;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    right: 0px;
+    top: 740px;
+}
+@media (max-width: 800px) {
+    .fundo-todos-01, .fundo-todos-02, .fundo-todos-03{
+        display: none;
+    }   
+}
+
+/*página de contato*/
+.fundo-contato-01 {
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    right: 0px;
+    top: 130px;
+}
+.fundo-contato-02 {
+    z-index: -1;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: 0px;
+    top: 130px;
+}
+@media (max-width: 800px) {
+    .fundo-contato-01, .fundo-contato-02{
+        display: none;
+    }   
+}
+
+
