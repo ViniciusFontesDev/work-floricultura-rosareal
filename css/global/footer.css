@@ -18,6 +18,8 @@
 
 .footer{
     padding: 20px 80px 40px 80px;
+    margin: 0px auto;
+    max-width: 1200px;
 }
 
 .footer-links{
@@ -68,5 +70,11 @@
     .footer{
         padding: 0px 20px;
         box-sizing: border-box;
+    }
+}
+
+@media(min-width: 1500px){
+    .footer-bg img{
+        display: none;
     }
 }
