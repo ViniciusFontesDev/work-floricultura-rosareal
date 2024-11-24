@@ -53,5 +53,13 @@
 @media(max-width: 700px){
     .produto{
         grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .produto-conteudo{
+        padding: 20px 40px;
+    }
+    .produto-bg{
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 }
